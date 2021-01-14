@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="./resource/logo.jpg">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">My Portfolio</h5>
+            <div>
+                <h4><span>Hello</span>, I'm</h4>
+                <h2>Krishan Gulati</h2>
+                <h4>I'm a Full Stack Developer.</h4>
+                <p style="margin: 20px 0;">
+                    Elegance in solving a problem is my sole motto while approaching a problem. 
+                    I prefer learning by trial, rather than trying to grasp all-at-once. I like staying updated with new technolgy.
+                </p>
+                <a href="./resource/KG_Resume.pdf" class="btn" download>Resume Download</a>
+            </div>
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/krishan.gulati1" target="_blank"><img src="./resource/facebook.png" ></a></li>
+                <li><a href="https://twitter.com/KGulatii" target="_blank"><img src="./resource/twitter.png" ></a></li>
+                <li><a href="https://www.instagram.com/krishangulati1/" target="_blank"><img src="./resource/instagram.png" ></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="title white">
+            <h2>About Me</h2>
+            
+        </div>
+        <div class="content">
+            <div class="textBx">
+                <p>
+                    Working as <b>Programmer Analyst</b> at <b>Cognizant Technology Solutions , Pune</b> with
+                    approximately <b>1 Years 6 Months </b>of experience in program development.
+                    <b>(Cognizant is an American multinational product led digital corporation that provides
+                    digital IT services with Head Quarters in United States and has support operations in
+                    India)</b>
+                </p>
+                <ul style="color: #fff;margin-left: 35px;line-height: 20px;">
+                    <li>Understanding the functional aspects of the client’s requirements and assisting
+                        in creating client specific applications, project specific processes and workflows
+                        within scheduled timelines.</li>
+                    <li>Going through Project specific documents and bootcamps to learn about client
+                        application suites, technology stacks used in the client environment and client
+                        specific processes and tools.</li>
+                    <li>Contributed to development of client side and server-side codes for web
+                        applications.</li>
+                    <li>Provide periodic task level updates as required.</li>
+                    <li>Multi-tasker and troubleshoot any issues that arise with departments to ensure
+                        their prompt and accurate resolution.</li>
+                    <li>Proficient in Java, Spring and Spring Boot and familiarity with Oracle and MySQL
+                        database management.</li>
+                    
+                </ul>
+            </div>
+            <div class="imgBx">
+                <img src="./resource/bg1.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="title">
+            <h2>Services</h2><br>
+        </div>
+        <div class="content">
+            <div class="serviceBx">
+                <img src="./resource/icon1.png">
+                <h2>Web Design</h2>
+            </div>
+            <div class="serviceBx">
+                <img src="./resource/icon2.png">
+                <h2>FullStack Dev.</h2>
+            </div>
+            <div class="serviceBx">
+                <img src="./resource/java.png">
+                <h2>Core Java</h2>
+                
+            </div>
+            <div class="serviceBx">
+                <img src="./resource/icon4.png">
+                <h2>Photography</h2>
+                
+            </div>
+            <div class="serviceBx">
+                <img src="./resource/icon5.png">
+                <h2>Content Writing</h2>
+                
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="title">
+            <h2>Work</h2>
+            <p></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./resource/struts.png">
+                </div>
+                <div class="textBx">
+                    <h3>project 01<br>Employee Management System<br><span style="text-align: right;">Struts 1.3</span></h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./resource/spring.png">
+                </div>
+                <div class="textBx">
+                    <h3>project 02<br>Product Tracking System<br><span style="text-align: right;">SpringBoot</span></h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./resource/vuejs.png">
+                </div>
+                <div class="textBx">
+                    <h3>project 03<br>API Integration<br><span style="text-align: right;">SpringBoot & Vuejs</span></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title white">
+            <h2>ContactUs</h2>
+            <p></p>
+        </div>
+        <div class="contactForm">
+            <div class="row">
+                <div class="col50">
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="col50">
+                    <input type="text" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col50">
+                    <input type="text" placeholder="Email" id="email">
+                </div>
+                <div class="col50">
+                    <input type="text" placeholder="Mobile Number">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col100">
+                    <textarea cols="30" rows="10" placeholder="Message" id="message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col100">
+                    <input type="submit" value="Send" onclick="sendEmail()">    
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>
+            © 2020 Krishan Gulati All Rights Reserved
+        </p>
+    </div>
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#service" onclick="toggleMenu()">Service</a></li>
+            <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menutoggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menutoggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        }
+        function sendEmail() {
+            const useremail = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            Email.send({ 
+                Host: "smtp.gmail.com", 
+                Username: "sender@email_address.com", 
+                Password: "Enter your password", 
+                To: 'receiver@email_address.com', 
+                From: "sender@email_address.com", 
+                Subject: "Sending Email using javascript", 
+                Body: "Well that was easy!!", 
+            }) 
+                .then(function (message) { 
+                alert("mail sent successfully") 
+                }); 
+        }
+    </script>
+</body>
+</html>
